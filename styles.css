@@ -22,7 +22,7 @@ header {
     justify-content: flex-end;
 }  */
 
-a { 
+.navmenu > a { 
 
     padding: 16px;
     color: #ffffff;
@@ -91,5 +91,23 @@ figure p {
     font-family: open sans;
     font-size: 18px;
     /* border-style:ridge; */
+}
+
+.contacts {
+    text-align: start;
+    padding: 0 100px;
+}
+.address {
+    font-style: italic;
+}
+.location , .hours {
+    font-family: open sans;
+    font-size: 20px;
+
+}
+
+main li {
+    font-family: Open sans;
+    font-size: 12px;
 }
 
