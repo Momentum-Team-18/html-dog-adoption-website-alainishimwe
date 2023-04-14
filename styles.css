@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
 
 
 header {
@@ -51,7 +51,7 @@ a {
     border: black;
 }
 .dogpics {
-    border-style:dashed;
+    border-style: groove;
     height:400px;
     width: 310px;
     margin-left: 1px;
@@ -71,5 +71,25 @@ a {
 
 figure p {
     margin-left: 8px;
+}
+
+
+.traits {
+    display: flex;
+    /* align-items: baseline; */
+    gap: 10px;
+    flex-wrap:  wrap;
+    /* justify-content: space-evenly; */
+    padding: 0 0 0 8px;
+    
+}
+.traits li {
+    list-style-type: none;
+    background-color: #89DEEF;
+    background-size: 10px;
+    border-radius: 5px;
+    font-family: open sans;
+    font-size: 18px;
+    /* border-style:ridge; */
 }
 
