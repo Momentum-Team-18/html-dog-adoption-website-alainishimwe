@@ -100,7 +100,7 @@ figure p {
 .address {
     font-style: italic;
 }
-.location , .hours {
+.ourlocation , .hours {
     font-family: open sans;
     font-size: 20px;
 
@@ -111,3 +111,46 @@ main li {
     font-size: 12px;
 }
 
+.footerclass {
+    display: flex;
+    height: 400px;
+    
+}
+
+.donate , .volunteer , .location {
+    flex: 1 1 auto;
+    font-size: 20px;
+    font-family: open sans;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    
+}
+
+ footer h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+} 
+.donate {
+    background:
+    linear-gradient(rgba(123, 127, 241, 0.45), rgba(123, 127, 241, 0.45)), url("images/donate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.volunteer {
+    background:
+    linear-gradient(rgba(123, 127, 241, 0.45), rgba(123, 127, 241, 0.45)), url("images/volunteer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.location {
+    background:
+    linear-gradient(rgba(123, 127, 241, 0.45), rgba(123, 127, 241, 0.45)), url("images/location.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
