@@ -49,14 +49,15 @@ header {
     width: 100%;
     flex-wrap: wrap;
     border: black;
+    /* height: 800px; */
 }
 .dogpics {
     border-style: groove;
-    height:400px;
+    height:410px;
     width: 310px;
     margin-left: 1px;
     margin-right: 10px;
-    margin-bottom: -5px;
+    /* margin-bottom: -5px; */
 }
 
 .dogpics > h3 {
@@ -153,4 +154,8 @@ main li {
     linear-gradient(rgba(123, 127, 241, 0.45), rgba(123, 127, 241, 0.45)), url("images/location.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.bottom {
+    display: block;
 }
