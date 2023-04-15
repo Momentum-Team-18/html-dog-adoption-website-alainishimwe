@@ -120,11 +120,10 @@ main li {
 
 .donate , .volunteer , .location {
     flex: 1 1 auto;
-    font-size: 20px;
-    font-family: open sans;
-    color: #ffffff;
+    /*  */
     text-align: center;
     position: relative;
+    
     
 }
 
@@ -140,8 +139,6 @@ main li {
     linear-gradient(rgba(123, 127, 241, 0.45), rgba(123, 127, 241, 0.45)), url("images/donate.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
 }
 .volunteer {
     background:
@@ -158,4 +155,21 @@ main li {
 
 .bottom {
     display: block;
+}
+
+.donate:hover {
+    background-image: url("images/donate.jpg");
+}
+.volunteer:hover {
+    background-image: url("images/volunteer.jpg");
+}
+.location:hover {
+    background-image: url("images/location.png");
+}
+
+h4 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: open sans;
 }
